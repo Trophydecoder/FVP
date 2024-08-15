@@ -1,0 +1,534 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+}
+body{
+    background-image: url(AccessBackgroundIndex/bodybg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+#FVPlogo{
+  width: 40%;
+}
+.sidenav {
+    height: 100%;
+    width: 0;
+    position:fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+  }
+  .sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .sidenav a:hover {
+    color: #f1f1f1;
+  }
+  
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+  .Containernavbar{
+      display: flex;
+      flex-direction: row;
+      width: 100%;
+  }
+  .navbar{    
+    width: 30%;
+  }
+  .navbarpc{
+    display: none;
+  }
+  .navPC a{
+    text-decoration: none;
+    color:#555555;
+    font-family: "Alegreya Sans SC", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    padding: 2%;
+  }
+  .navPC a:hover{
+    background-color:#AB8E5D;
+    border: 1px solid transparent;
+    color: white;
+    padding: 3px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    height: 4vh;
+  }
+  .Menubarcontainer{
+    width: 70%;
+  }
+  .Menubar{
+     float: right;
+     padding-right: 8%;
+  }
+.Container1{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.Header{
+    background-image: url(AcessForMarketing/Marketing\ header\ background.png);
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    padding-bottom: 10%;
+    width: 100%;; 
+}
+.Header h1{
+    color: #ffffff;
+    font-family: "Alegreya Sans SC", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 25px;
+    padding-top: 5%;
+} 
+.Header p1{
+    color:#d4d4d4;
+    font-family: "Alegreya Sans SC", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    font-size: 13px
+} 
+
+.Container2{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-bottom: 10%;
+    width: 100%;; 
+   padding-top: 2%;
+   align-items: center;
+}
+.content1{
+  width: 60%;
+}
+#content1img{
+width: 70%;
+}
+.content1 h1{
+color:#AB8E5D;
+font-family: "Alegreya Sans SC", sans-serif;
+font-weight: 300;
+ font-style: normal;
+ font-size: 25px;
+  }
+.content1 p1{
+color: rgb(116, 116, 116);
+font-family: "Alegreya Sans SC", sans-serif;
+font-weight: 100;
+font-style: normal;
+}
+
+.content2{
+width: 60%;
+
+ }
+#content2img{
+width: 70%;
+  }
+.content2 h1{
+  color:#AB8E5D;
+  font-family: "Alegreya Sans SC", sans-serif;
+  font-weight: 300;
+   font-style: normal;
+   font-size: 25px;
+}
+.content2 p1{
+color: rgb(116, 116, 116);
+font-family: "Alegreya Sans SC", sans-serif;
+font-weight: 100;
+font-style: normal;
+}
+
+.Container3{
+  display: flex;
+  flex-direction: column;
+  width: 100%; 
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.content3{
+  width: 60%;
+}
+#content3img{
+width: 75%;
+
+}
+.content3 h1{
+  color:#AB8E5D;
+  font-family: "Alegreya Sans SC", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 25px;
+
+}
+.content3 p1{
+color: rgb(116, 116, 116);
+font-family: "Alegreya Sans SC", sans-serif;
+font-weight: 100;
+font-style: normal;
+}
+.content4{
+  width: 65%;
+}
+#content4img{
+width: 70%;
+}
+.content4 h1{
+  color:#AB8E5D;
+  font-family: "Alegreya Sans SC", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 25px;
+  text-wrap: nowrap;
+}
+.content4 p1{
+color: rgb(116, 116, 116);
+font-family: "Alegreya Sans SC", sans-serif;
+font-weight: 100;
+font-style: normal;
+}
+.Container{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  width: 100%;
+  text-align: center;
+  padding-top: 10%;
+}
+.ContactUsh1andp{
+  width: 100%;
+}
+.ContactUsh1andp h1{
+  font-family: "Alegreya Sans SC", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+  color: #AB8E5D;
+  
+}
+.containerContact{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  width: 100%;
+  text-align: center;
+  
+}
+
+#contact {
+  width: 100%;
+  height: 100%;
+}
+
+.section-header {
+  text-align: center;
+  font: 300 60px 'Oswald', sans-serif;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 6px;
+}
+
+.contact-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 0 auto;
+  padding: 20px;
+  position: relative;
+ width: 100%;
+}
+.direct-contact-container {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  width: 100%;
+  text-align: center;
+}  
+/* Left contact page */
+
+.form-control, 
+textarea {
+  width: 70%;
+  background-color: #ffffff;
+  color: #757474;
+  letter-spacing: 1px;
+  margin-top: 4%;
+  border: 1px solid transparent;
+}
+#name{
+  height: 4vh;
+  border: 1px solid transparent;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.4), 0px 7px 13px -3px rgba(0, 0, 0, 0.3)
+}
+#email{
+  height: 4vh;
+  border: 1px solid transparent;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.4), 0px 7px 13px -3px rgba(0, 0, 0, 0.3)
+}
+#message{
+  border: 1px solid transparent;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.4), 0px 7px 13px -3px rgba(0, 0, 0, 0.3)
+}
+.send-button {
+  margin-top: 15px;
+  height: 8vh;
+  width: 70%;
+  overflow: hidden;
+  transition: all .2s ease-in-out;
+  background-color: #AB8E5D;
+  
+}
+
+.alt-send-button {
+  width: 100%;
+  height: px;
+  transition: all .2s ease-in-out;
+}
+
+.send-text {
+  display: block;
+  margin-top: 10px;
+  font: 700 12px 'Lato', sans-serif;
+  letter-spacing: 2px;
+}
+
+.alt-send-button:hover {
+  transform: translate3d(0px, -29px, 0px);
+  margin-top: 6%;
+}
+
+/* Begin Right Contact Page */
+.direct-contact-container {
+  padding-top: 10%;
+  width: 100%;
+}
+/* Location, Phone, Email Section */
+.contact-list {
+  list-style-type: none;
+  padding-right: 20px;
+  font-size: 10px;
+}
+
+.list-item {
+  line-height: 4;
+  color: #000000;
+}
+
+.contact-text {
+  font: 300 13px 'Lato', sans-serif;
+  letter-spacing: 1.9px;
+  color: #000000;
+}
+
+.place {
+  margin-left: 62px;
+}
+.phone {
+  margin-left: 56px;
+}
+
+.gmail {
+  margin-left: 53px;
+}
+
+.contact-text a {
+  color: #000000;
+  text-decoration: none;
+  transition-duration: 0.2s;
+}
+
+.contact-text a:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
+
+/* Social Media Icons */
+.social-media-list {
+  position: relative;
+  font-size: 15px;
+  text-align: center;
+  width: 100%;
+
+  padding: 0;
+}
+
+.social-media-list li a {
+  color: #fff;
+  
+}
+
+.social-media-list li {
+  position: relative; 
+  display: inline-block;
+  height: 60px;
+  width: 60px;
+  line-height: 60px;
+  margin: 17px 3px;
+  border-radius: 50%;
+  color: #fff;
+  background-color: rgb(27,27,27);
+  cursor: pointer; 
+  transition: all .2s ease-in-out;
+}
+
+.social-media-list li:after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 60px;
+  height: 60px;
+  line-height: 60px;
+  border-radius: 50%;
+  opacity: 0;
+  box-shadow: 0 0 0 1px #fff;
+  transition: all .2s ease-in-out;
+}
+
+.social-media-list li:hover {
+  background-color: #fff; 
+}
+
+.social-media-list li:hover:after {
+  opacity: 1;  
+  transform: scale(1.12);
+  transition-timing-function: cubic-bezier(0.37,0.74,0.15,1.65);
+}
+
+.social-media-list li:hover a {
+  color: #000;
+}
+
+.copyright {
+  font: 200 14px 'Oswald', sans-serif;
+  color: #555;
+  letter-spacing: 1px;
+  text-align: center;
+  margin-top: 15%;
+}
+
+hr {
+  border-color: rgba(255,255,255,.6);
+}
+.ContainerFooter{
+  display: flex;
+  flex-direction:column;
+  background-color: #000;
+  width: 100%;
+  text-align: center;
+  padding-top: 2%;
+  
+}
+.ContainerFooter p{
+  color: #7a7878;
+
+}
+.FVPlogoFooter{
+  width: 40%;
+}
+
+@media screen and (min-width: 1024px){
+  .navbar{
+    width: 50%;
+  }
+  .Menubarcontainer{
+    width: 0%;
+  }
+  .navbarpc{
+    width: 100%;
+    display: flex;
+  }
+  
+  .Header{
+    height: 60vh;
+    padding-top: 5%;
+  }
+  .Header h1{
+    font-size: 50px;
+  }
+  .Header p1{
+     font-size: 15px;
+  }
+  .navPC{
+    padding-top:4%;
+    width: 100%;
+    text-align: center;
+    justify-content: space-between;
+  }
+  #R1nav{
+      background-color:#AB8E5D;
+      border: 1px solid transparent;
+      color: white;
+      padding: 3px 16px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      height: 4vh;
+  }
+   .Menubar{
+    display: none;
+}
+.content1{
+  width: 20%;
+}
+.content2{
+   width: 20%;
+}
+.content3{
+   width: 20%;
+}
+.content4{
+   width: 20%;
+}
+.Container2{
+   flex-direction: row;
+   display: flex;
+   justify-content: center;
+   justify-content: space-evenly;
+
+}
+.Container3{
+  flex-direction: row;
+  display: flex;
+  justify-content: center;
+  justify-content: space-evenly;
+}
+.containerContact{
+  display: flex;
+  flex-direction:row;
+  justify-content: center;
+}
+.direct-contact-container {
+  width: 50%;
+
+}
+.FVPlogoFooter{
+  width: 20%;
+}
+}

@@ -1,0 +1,629 @@
+@import url("https://pro.fontawesome.com/releases/v6.0.0-beta1/css/all.css");
+@import url("https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap");
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+}
+body{
+  background-image: url(AccessBackgroundIndex/bodybg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+#FVPlogo{
+    width: 40%;
+}
+.sidenav {
+    height: 100%;
+    width: 0;
+    position:fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+  }
+  .sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .sidenav a:hover {
+    color: #f1f1f1;
+  }
+  
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+.Containernavbar{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+.navbar{
+  width: 50%;
+  
+}
+.navbarpc{
+  display: none;
+}
+.navPC a{
+  text-decoration: none;
+  color:#555555;
+  font-family: "Alegreya Sans SC", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+  padding: 2%;
+}
+.navPC a:hover{
+  background-color:#AB8E5D;
+  border: 1px solid transparent;
+  color: white;
+  padding: 3px 16px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  height: 4vh;
+}
+.Menubarcontainer{
+  width: 50%;
+}
+.Menubar{
+   float: right;
+   padding-right: 8%;
+}
+.Container1{
+    display: flex;
+    flex-direction: column;
+
+}
+.Header{
+  background-image: url(AccessBackgroundIndex/header\ background.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  padding-bottom: 6%;
+  width: 100%;
+}
+.Header h1{
+  padding-top: 5%;
+    color: #AB8E5D;
+    font-family: "Alegreya Sans SC", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+} 
+.Header p1{
+    color:#cccccc;
+    font-family: "Alegreya Sans SC", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    font-size: 13px;
+} 
+.headerbtn{
+  width: 100%;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+.Headerbutton{
+  background-color:#AB8E5D;
+  border: 1px solid transparent;
+  color: white;
+  padding: 14px 19px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius:12px;
+}
+.Headerbutton:hover{
+  background-color:rgb(59, 44, 3);
+}
+.Container2{
+  display: flex;
+  flex-direction: column;
+  padding-top: 5%;
+  width: 100%;
+}
+.AboutUs{
+   width: 100%;
+   text-align: center;
+}
+.AboutUs h1{
+    color: #AB8E5D;
+    font-family: "Alegreya Sans SC", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+} 
+.AboutUs p1{
+    color: rgb(77, 77, 77);
+    font-family: "Alegreya Sans SC", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    font-size: 13px;
+} 
+.ContainerAboutimg{
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.Aboutusimage{
+    width: 70%;
+    border-radius: 9px;
+    padding-top: 2%;
+}
+.Container3{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.ServicesHandP{
+    text-align: center;
+    padding-top: 6%;
+}
+.ServicesHandP h1{
+    color:#AB8E5D;
+    font-family: "Alegreya Sans SC", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+}
+.ServicesHandP p1{
+    color: rgb(77, 77, 77);
+    font-family: "Alegreya Sans SC", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+
+}
+.ContainerServicesImagesFirstrow{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+}
+.Containerservices1{
+  width: 50;
+  text-align: center;
+  border: 1px solid transparent;
+  box-shadow: rgba(0, 0, 0, 0.15) 0 0 35px;
+  border-radius: 15px;
+}
+.innovation{
+    width: 20%;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.4), 0px 7px 7px -3px rgba(0, 0, 0, 0.3);
+    border-radius: 50%;
+}
+.Containerservices1 h1{
+  color:#AB8E5D;
+  font-family: "Alegreya Sans SC", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+  font-size: 30px;
+}
+.Containerservices1 p1{
+  color: rgb(155, 154, 154);
+  font-family: "Alegreya Sans SC", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+.Containerservices2{
+   width: 80%;
+  text-align: center;
+  border: 1px solid transparent;
+  box-shadow: rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.2px;
+  border-radius: 15px;
+  }
+  .Advisory{
+    width: 20%;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.4), 0px 7px 7px -3px rgba(0, 0, 0, 0.3);
+    border-radius: 50%;
+  }
+  .Containerservices2 h1{
+    color: #AB8E5D;
+    font-family: "Alegreya Sans SC", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    font-size: 30px;
+  }
+  .Containerservices2 p1{
+    color: rgb(155, 154, 154);
+    font-family: "Alegreya Sans SC", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+  }
+.Container4{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 100%;
+    padding-top: 5%;
+}
+.Clientswords{
+ 
+}
+.ContainerImg{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  width: 100%;
+}
+
+.ClientsIMG{
+align-items: center;
+}
+.Clientswords h1{
+    font-family: "Alegreya Sans SC", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    color: #AB8E5D;
+}
+.slides {
+    width: 50%;
+}
+  
+.Container5{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  width: 100%;
+  text-align: center;
+}
+.ContactUsh1andp{
+  width: 100%;
+}
+.ContactUsh1andp h1{
+  font-family: "Alegreya Sans SC", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+  color: #AB8E5D;
+  font-size: 30px;
+  padding-top: 2%;
+  
+}
+.containerContact{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  width: 100%;
+  text-align: center;
+  padding-top: 2%;
+}
+input{
+  border-radius: 10px;
+  padding-top: 4%;
+  padding-bottom: 4%;
+  line-height: 10px;
+}
+textarea{
+  border-radius: 10px;
+}
+.send-button{}
+#contact {
+  width: 100%;
+  height: 100%;
+}
+
+.section-header {
+  text-align: center;
+  font: 300 60px 'Oswald', sans-serif;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 6px;
+}
+
+.contact-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 0 auto;
+  padding: 20px;
+  position: relative;
+ width: 100%;
+}
+.direct-contact-container {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  width: 100%;
+  text-align: center;
+}  
+/* Left contact page */
+
+.form-control, 
+textarea {
+  width: 70%;
+  background-color: #ffffff;
+  color: #757474;
+  letter-spacing: 1px;
+  margin-top: 4%;
+  border: 1px solid transparent;
+}
+#name{
+  height: 4vh;
+  border: 1px solid transparent;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.4), 0px 7px 13px -3px rgba(0, 0, 0, 0.3)
+}
+#email{
+  height: 4vh;
+  border: 1px solid transparent;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.4), 0px 7px 13px -3px rgba(0, 0, 0, 0.3)
+}
+#message{
+  border: 1px solid transparent;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.4), 0px 7px 13px -3px rgba(0, 0, 0, 0.3)
+}
+.send-button {
+  margin-top: 15px;
+  height: 8vh;
+  width: 70%;
+  overflow: hidden;
+  background-color: #e7cda0;
+  border: none;
+  border-radius: 10px;
+}
+.send-button:hover{
+  background-color: #f8f8f8;
+  border: 2px solid #e7cda0;
+}
+.send-text {
+  display: block;
+  margin-top: 10px;
+  font: 700 12px 'Lato', sans-serif;
+  letter-spacing: 2px;
+}
+
+/* Begin Right Contact Page */
+.direct-contact-container {
+  padding-top: 10%;
+  width: 100%;
+}
+/* Location, Phone, Email Section */
+.contact-list {
+  list-style-type: none;
+  padding-right: 20px;
+  font-size: 10px;
+}
+
+.list-item {
+  line-height: 4;
+  color: #000000;
+}
+
+.contact-text {
+  font: 300 13px 'Lato', sans-serif;
+  letter-spacing: 1.9px;
+  color: #000000;
+}
+
+.place {
+  margin-left: 62px;
+}
+.phone {
+  margin-left: 56px;
+}
+
+.gmail {
+  margin-left: 53px;
+}
+
+.contact-text a {
+  color: #000000;
+  text-decoration: none;
+  transition-duration: 0.2s;
+}
+
+.contact-text a:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
+
+/* Social Media Icons */
+.social-media-list {
+  position: relative;
+  font-size: 15px;
+  text-align: center;
+  width: 100%;
+
+  padding: 0;
+}
+
+.social-media-list li a {
+  color: #fff;
+  
+}
+
+.social-media-list li {
+  position: relative; 
+  display: inline-block;
+  height: 60px;
+  width: 60px;
+  line-height: 60px;
+  margin: 17px 3px;
+  border-radius: 50%;
+  color: #fff;
+  background-color: rgb(27,27,27);
+  cursor: pointer; 
+  transition: all .2s ease-in-out;
+}
+
+.social-media-list li:after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 60px;
+  height: 60px;
+  line-height: 60px;
+  border-radius: 50%;
+  opacity: 0;
+  box-shadow: 0 0 0 1px #fff;
+  transition: all .2s ease-in-out;
+}
+
+.social-media-list li:hover {
+  background-color: #fff; 
+}
+
+.social-media-list li:hover:after {
+  opacity: 1;  
+  transform: scale(1.12);
+  transition-timing-function: cubic-bezier(0.37,0.74,0.15,1.65);
+}
+
+.social-media-list li:hover a {
+  color: #000;
+}
+
+.copyright {
+  font: 200 14px 'Oswald', sans-serif;
+  color: #555;
+  letter-spacing: 1px;
+  text-align: center;
+  margin-top: 15%;
+}
+
+hr {
+  border-color: rgba(255,255,255,.6);
+}
+.ContainerFooter{
+  display: flex;
+  flex-direction:column;
+  background-color: #000;
+  width: 100%;
+  text-align: center;
+  padding-top: 2%;
+  margin-top: 4%;
+}
+.ContainerFooter p{
+  color: #7a7878;
+
+}
+.FVPlogoFooter{
+  width: 40%;
+}
+
+/*desktop*/
+@media screen and (min-width: 1024px){
+  .Header{
+    height: 60vh;
+    padding-top: 5%;
+  }
+  .Header h1{
+    font-size: 50px;
+  }
+  .Header p1{
+     font-size: 15px;
+  }
+  .navbar{
+  
+    width: 50%;
+  }
+  .Menubarcontainer{
+    width: 0%;
+  }
+  .navbarpc{
+
+    width: 100%;
+    display: flex;
+
+  }
+  .slides {
+    padding-top: 2%;
+    width: 30%;
+}
+  
+  .navPC{
+    padding-top:4%;
+    width: 100%;
+    text-align: center;
+    justify-content: space-between;
+  }
+  #Homenav{
+    background-color:#AB8E5D;
+    border: 1px solid transparent;
+    color: white;
+    padding: 3px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    height: 4vh;
+  }
+   .Menubar{
+    display: none;
+}
+.Container2{
+  display: flex;
+  flex-direction: row;
+}
+.AboutUs{
+ width: 55%;
+ padding-left: 10%;
+}
+.AboutUs h1{
+  padding-top: 10%;
+}
+.ContainerAboutimg{
+width: 40%;
+}
+.ContainerServicesImagesFirstrow{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-top: 2%;
+}
+.Containerservices1  {
+  align-content: center;
+  width: 20%;
+  height: 25vh;
+  justify-content: center;
+   margin: 2%;
+}
+.Containerservices2{
+  width: 20%;
+  height: 25vh;
+}
+.innovation{
+  width: 25%;
+}
+.Advisory{
+  width: 25%;
+}
+.Containerservices1 p1{
+  font-size: 15px;
+}
+.Containerservices2 p1{
+  font-size: 15px;
+}
+.Container4{
+  
+}
+.containerContact{
+  display: flex;
+  flex-direction:row;
+  justify-content: center;
+}
+.direct-contact-container {
+  width: 50%;
+
+}
+.FVPlogoFooter{
+  width: 20%;
+}
+}
