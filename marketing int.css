@@ -105,38 +105,47 @@ body{
     font-size: 25px;
     padding-top: 5%;
 } 
-.Header p1{
+.Header p{
     color:#d4d4d4;
     font-family: "Alegreya Sans SC", sans-serif;
     font-weight: 100;
     font-style: normal;
-    font-size: 13px
+    font-size: 13px;
+    padding-top: 1%;
 } 
 
+
 .Container2{
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    padding-bottom: 10%;
-    width: 100%;; 
-   padding-top: 2%;
-   align-items: center;
+  display: flex;
+  flex-direction: column;
+  /*background-image: url(AccessforBackgroundContenthub/background\ for\ content\ section.png);*/
+  width: 100%; 
+  background-repeat: no-repeat;
+  background-size: cover; 
+  text-align: center;
+  align-items: center;
+  padding-top: 2%;
 }
 .content1{
-  width: 60%;
+width: 60%;
+box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+background-color: white;
+border-radius: 10px;
+margin: 3%; 
+padding-bottom: 5%;
 }
 #content1img{
-width: 70%;
+width: 47%;
 }
-.content1 h1{
+.content1 h3{
 color:#AB8E5D;
 font-family: "Alegreya Sans SC", sans-serif;
-font-weight: 300;
- font-style: normal;
- font-size: 25px;
-  }
-.content1 p1{
-color: rgb(116, 116, 116);
+font-weight: 600;
+font-style: normal;
+font-style: 15px;
+}
+.content1 {
+  color: rgb(112, 111, 111);
 font-family: "Alegreya Sans SC", sans-serif;
 font-weight: 100;
 font-style: normal;
@@ -144,70 +153,75 @@ font-style: normal;
 
 .content2{
 width: 60%;
-
- }
-#content2img{
-width: 70%;
-  }
-.content2 h1{
-  color:#AB8E5D;
-  font-family: "Alegreya Sans SC", sans-serif;
-  font-weight: 300;
-   font-style: normal;
-   font-size: 25px;
+box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+background-color: white;
+border-radius: 10px;
+padding-bottom: 5%;
+margin: 3%; 
 }
-.content2 p1{
-color: rgb(116, 116, 116);
+#content2img{
+width: 50%;
+}
+.content2 h3{
+color:#AB8E5D;
+font-family: "Alegreya Sans SC", sans-serif;
+font-weight: 600;
+ font-style: normal;
+ font-style: 15px;
+}
+.content2 p{
+  color: rgb(112, 111, 111);
 font-family: "Alegreya Sans SC", sans-serif;
 font-weight: 100;
 font-style: normal;
 }
 
-.Container3{
-  display: flex;
-  flex-direction: column;
-  width: 100%; 
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-}
 .content3{
-  width: 60%;
+width: 60%;
+box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+background-color: white;
+border-radius: 10px;
+padding-bottom: 5%;
+margin: 3%; 
 }
 #content3img{
-width: 75%;
+width:50%;
 
 }
-.content3 h1{
-  color:#AB8E5D;
-  font-family: "Alegreya Sans SC", sans-serif;
-  font-weight: 300;
-  font-style: normal;
-  font-size: 25px;
+.content3 h3{
+color:#AB8E5D;
+font-family: "Alegreya Sans SC", sans-serif;
+font-weight: 600;
+font-style: normal;
+font-style: 15px;
 
 }
-.content3 p1{
-color: rgb(116, 116, 116);
+.content3 p {
+  color: rgb(112, 111, 111);
 font-family: "Alegreya Sans SC", sans-serif;
 font-weight: 100;
 font-style: normal;
 }
 .content4{
-  width: 65%;
+  width: 60%;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+  background-color: white;
+  border-radius: 10px;
+  padding-bottom: 5%;
+  margin: 3%;
 }
 #content4img{
-width: 70%;
+width: 50%;
 }
-.content4 h1{
-  color:#AB8E5D;
-  font-family: "Alegreya Sans SC", sans-serif;
-  font-weight: 300;
-  font-style: normal;
-  font-size: 25px;
-  text-wrap: nowrap;
+.content4 h3{
+color:#AB8E5D;
+font-family: "Alegreya Sans SC", sans-serif;
+font-weight: 600;
+font-style: normal;
+font-style: 15px;
 }
-.content4 p1{
-color: rgb(116, 116, 116);
+.content4 p{
+  color: rgb(112, 111, 111);
 font-family: "Alegreya Sans SC", sans-serif;
 font-weight: 100;
 font-style: normal;
@@ -237,6 +251,15 @@ font-style: normal;
   width: 100%;
   text-align: center;
   
+}
+input{
+  border-radius: 10px;
+  padding-top: 4%;
+  padding-bottom: 4%;
+  line-height: 10px;
+}
+textarea{
+  border-radius: 10px;
 }
 
 #contact {
@@ -298,27 +321,19 @@ textarea {
   height: 8vh;
   width: 70%;
   overflow: hidden;
-  transition: all .2s ease-in-out;
-  background-color: #AB8E5D;
-  
+  background-color: #e7cda0;
+  border: none;
+  border-radius: 10px;
 }
-
-.alt-send-button {
-  width: 100%;
-  height: px;
-  transition: all .2s ease-in-out;
+.send-button:hover{
+  background-color: #f8f8f8;
+  border: 2px solid #e7cda0;
 }
-
 .send-text {
   display: block;
   margin-top: 10px;
   font: 700 12px 'Lato', sans-serif;
   letter-spacing: 2px;
-}
-
-.alt-send-button:hover {
-  transform: translate3d(0px, -29px, 0px);
-  margin-top: 6%;
 }
 
 /* Begin Right Contact Page */
@@ -442,7 +457,7 @@ hr {
   width: 100%;
   text-align: center;
   padding-top: 2%;
-  
+  margin-top: 4%;
 }
 .ContainerFooter p{
   color: #7a7878;
@@ -451,7 +466,6 @@ hr {
 .FVPlogoFooter{
   width: 40%;
 }
-
 @media screen and (min-width: 1024px){
   .navbar{
     width: 50%;
@@ -493,42 +507,46 @@ hr {
   }
    .Menubar{
     display: none;
-}
-.content1{
-  width: 20%;
-}
-.content2{
-   width: 20%;
-}
-.content3{
-   width: 20%;
-}
-.content4{
-   width: 20%;
-}
-.Container2{
-   flex-direction: row;
-   display: flex;
-   justify-content: center;
-   justify-content: space-evenly;
-
-}
-.Container3{
-  flex-direction: row;
-  display: flex;
-  justify-content: center;
-  justify-content: space-evenly;
-}
-.containerContact{
+   }
+    .content1{
+      width: 20%;
+      padding-bottom: 2%;
+    }
+    .content2{
+       width: 20%;
+       padding-bottom: 2%;
+    }
+    .content3{
+       width: 20%;
+      padding-bottom: 2%;
+    }
+    .content4{
+       width: 20%;
+       padding-bottom: 2%;
+    }  
+    .Container2{
+      flex-direction: row;
+      display: flex;
+  
+   }
+   .Container3{
+     flex-direction: row;
+     display: flex;
+     justify-content:center;
+   
+   }
+  .containerContact{
   display: flex;
   flex-direction:row;
   justify-content: center;
-}
-.direct-contact-container {
+  }
+  .direct-contact-container {
   width: 50%;
-
-}
-.FVPlogoFooter{
+  }
+  .Container{
+    padding-top: 2%;
+    }
+  .FVPlogoFooter{
   width: 20%;
-}
-}
+  }
+  }

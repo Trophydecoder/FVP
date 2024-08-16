@@ -29,3 +29,7 @@ function openNav() {
               .addEventListener('click', function () {
                 window.location.href = 'file:///C:/Users/Sthe/Documents/websites/Flowing%20Visuals/contactus.html';
               });           
+  document.getElementById('FVPlogo')
+              .addEventListener('click', function () {
+                window.location.href = 'file:///C:/Users/Sthe/Documents/websites/Flowing%20Visuals/index.html';
+              });           

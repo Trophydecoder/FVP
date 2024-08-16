@@ -107,18 +107,20 @@ body{
     font-weight: 600;
     font-style: normal;
 } 
-.Header p1{
+.Header p{
     color:#cccccc;
     font-family: "Alegreya Sans SC", sans-serif;
     font-weight: 100;
     font-style: normal;
     font-size: 13px;
+    padding-top: 1%;
 } 
 .headerbtn{
   width: 100%;
   display: flex;
   text-align: center;
   justify-content: center;
+  padding-top: 1%;
 }
 .Headerbutton{
   background-color:#AB8E5D;
@@ -145,13 +147,13 @@ body{
    text-align: center;
 }
 .AboutUs h1{
-    color: #AB8E5D;
+    color:  rgb(160, 159, 159);
     font-family: "Alegreya Sans SC", sans-serif;
     font-weight: 100;
     font-style: normal;
 } 
 .AboutUs p1{
-    color: rgb(77, 77, 77);
+    color: rgb(59, 58, 58);
     font-family: "Alegreya Sans SC", sans-serif;
     font-weight: 100;
     font-style: normal;
@@ -178,7 +180,7 @@ body{
     padding-top: 6%;
 }
 .ServicesHandP h1{
-    color:#AB8E5D;
+  color:  rgb(160, 159, 159);
     font-family: "Alegreya Sans SC", sans-serif;
     font-weight: 100;
     font-style: normal;
@@ -197,48 +199,50 @@ body{
     align-items: center;
 }
 .Containerservices1{
-  width: 50;
+  width: 37%;
   text-align: center;
   border: 1px solid transparent;
   box-shadow: rgba(0, 0, 0, 0.15) 0 0 35px;
   border-radius: 15px;
+  align-content: center;
+  justify-content: center;
+   margin: 2%;
+
 }
 .innovation{
-    width: 20%;
-    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.4), 0px 7px 7px -3px rgba(0, 0, 0, 0.3);
+    width: 40%;
     border-radius: 50%;
 }
-.Containerservices1 h1{
-  color:#AB8E5D;
+.Containerservices1 h3{
+  color: #AB8E5D;
   font-family: "Alegreya Sans SC", sans-serif;
   font-weight: 100;
   font-style: normal;
-  font-size: 30px;
+  padding-bottom: 5%;
 }
 .Containerservices1 p1{
   color: rgb(155, 154, 154);
   font-family: "Alegreya Sans SC", sans-serif;
   font-weight: 100;
   font-style: normal;
+  padding-bottom: 5%;
 }
 .Containerservices2{
-   width: 80%;
+  width: 37%;
   text-align: center;
   border: 1px solid transparent;
-  box-shadow: rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.2px;
+  box-shadow: rgba(0, 0, 0, 0.15) 0 0 35px;
   border-radius: 15px;
   }
   .Advisory{
-    width: 20%;
-    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.4), 0px 7px 7px -3px rgba(0, 0, 0, 0.3);
+    width: 37%;
     border-radius: 50%;
   }
-  .Containerservices2 h1{
+  .Containerservices2 h3{
     color: #AB8E5D;
     font-family: "Alegreya Sans SC", sans-serif;
     font-weight: 100;
     font-style: normal;
-    font-size: 30px;
   }
   .Containerservices2 p1{
     color: rgb(155, 154, 154);
@@ -270,7 +274,7 @@ align-items: center;
     font-family: "Alegreya Sans SC", sans-serif;
     font-weight: 100;
     font-style: normal;
-    color: #AB8E5D;
+    color:  rgb(160, 159, 159);
 }
 .slides {
     width: 50%;
@@ -290,8 +294,7 @@ align-items: center;
   font-family: "Alegreya Sans SC", sans-serif;
   font-weight: 100;
   font-style: normal;
-  color: #AB8E5D;
-  font-size: 30px;
+  color:  rgb(160, 159, 159);
   padding-top: 2%;
   
 }
@@ -312,7 +315,7 @@ input{
 textarea{
   border-radius: 10px;
 }
-.send-button{}
+
 #contact {
   width: 100%;
   height: 100%;
@@ -573,11 +576,11 @@ hr {
   flex-direction: row;
 }
 .AboutUs{
- width: 55%;
+ width: 50%;
  padding-left: 10%;
 }
 .AboutUs h1{
-  padding-top: 10%;
+
 }
 .ContainerAboutimg{
 width: 40%;

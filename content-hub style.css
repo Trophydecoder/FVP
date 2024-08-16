@@ -1,1033 +1,364 @@
 *{
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  
 }
 body{
-    background-image: url(AccessBackgroundIndex/bodybg.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 100%;
-    height: 200vh;
-    text-align: center;
+  background-image: url(AccessforBackgroundContenthub/background\ for\ content\ section.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
 }
 #FVPlogo{
-    width: 40%;
+width: 40%;
 }
 .sidenav {
-    height: 100%;
-    width: 0;
-    position:fixed;
-    z-index: 1;
-    top: 0;
-    left: 0;
-    background-color: #111;
-    overflow-x: hidden;
-    transition: 0.5s;
-    padding-top: 60px;
-  }
-  .sidenav a {
-    padding: 8px 8px 8px 32px;
-    text-decoration: none;
-    font-size: 25px;
-    color: #818181;
-    display: block;
-    transition: 0.3s;
-  }
-  
-  .sidenav a:hover {
-    color: #f1f1f1;
-  }
-  
-  .sidenav .closebtn {
-    position: absolute;
-    top: 0;
-    right: 25px;
-    font-size: 36px;
-    margin-left: 50px;
-  }
-.navbar{
+  height: 100%;
+  width: 0;
+  position:fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+.Containernavbar{
     display: flex;
     flex-direction: row;
+    width: 100%;
 }
-.navbar a{
+.navbar{    
+  width: 30%;
+}
+.navbarpc{
   display: none;
 }
-.Menubar{
-    margin-top: 4%;
-    margin-left: 45%;
-    color:#AB8E5D;
+.navPC a{
+  text-decoration: none;
+  color:#555555;
+  font-family: "Alegreya Sans SC", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+  padding: 2%;
 }
-.Container1{
-    display: flex;
-    flex-direction: column;
-}
-.Header{
-    background-image: url(AccessforBackgroundContenthub/Content\ -\ hub.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    width:100%;
-    height: 35vh;
-    text-align: center;
-    
-}
-.Header h1{
-    color: #ffffff;
-    font-family: "Alegreya Sans SC", sans-serif;
-    font-weight: 600;
-    font-style: normal;
-    margin-top: 20%;
-   
-} 
-.Header p1{
-    color:#d4d4d4;
-    font-family: "Alegreya Sans SC", sans-serif;
-    font-weight: 100;
-    font-style: normal;
-    font-size: 13px
-} 
-.Container2{
-    display: flex;
-    flex-direction: row;
-    background-color: grey;
-    width: 100%;
-}
-#spotify{
-    width: 40%;
-    
-}
-#youtube{
-    width: 40%;
-    margin-bottom: -2%;
-}
-.container3{
-    display: flex;
-    flex-direction: column;
-    background-image: url(AccessforBackgroundContenthub/background\ for\ content\ section.png);
-    width: 100%; 
-    background-repeat: no-repeat;
-    background-size: cover;
-    width:100%;
-    height: 230vh;
-}
-.content1{
-  width: 60%;
-  margin-left: 21%;
-  border: 1px solid transparent;
-  box-shadow: rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.2px;
-  height: 35vh;
-  margin-top: 5%;
-  border-radius: 9px;
-}
-#content1img{
-width: 98%;
-margin-left: 1%;
-border-radius: 12px;
-}
-.content1 h1{
-color:#AB8E5D;
-font-family: "Alegreya Sans SC", sans-serif;
-font-weight: 300;
- font-style: normal;
- margin-top:3%;
-  }
-.content1 p1{
-color: rgb(116, 116, 116);
-font-family: "Alegreya Sans SC", sans-serif;
-font-weight: 100;
-font-style: normal;
-  }
-
-.content2{
-width: 60%;
-margin-left: 21%;
-border: 1px solid transparent;
-box-shadow: rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.2px;
-height: 35vh;
- margin-top: 5%;
- border-radius: 9px;
- }
-#content2img{
-width: 98%;
-margin-left: 1%;
-border-radius: 12px;
-  }
-.content2 h1{
-color:#AB8E5D;
-font-family: "Alegreya Sans SC", sans-serif;
-font-weight: 300;
-font-style: normal;
-margin-top:3%;
-}
-.content2 p1{
-color: rgb(116, 116, 116);
-font-family: "Alegreya Sans SC", sans-serif;
-font-weight: 100;
-font-style: normal;
-}
-
-.content3{
- width: 60%;
- margin-left: 21%;
-border: 1px solid transparent;
-box-shadow: rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.2px;
-height: 35vh;
-margin-top: 5%;
-border-radius: 9px;
-}
-#content3img{
-width: 98%;
-margin-left: 1%;
-border-radius: 12px;
-      }
-.content3 h1{
-color:#AB8E5D;
-font-family: "Alegreya Sans SC", sans-serif;
-font-weight: 300;
-font-style: normal;
-margin-top:3%;
-}
-.content3 p1{
-color: rgb(116, 116, 116);
-font-family: "Alegreya Sans SC", sans-serif;
-font-weight: 100;
-font-style: normal;
-}
-.content4{
-width: 60%;
-margin-left: 21%;
-border: 1px solid transparent;
-box-shadow: rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.2px;
-height: 35vh;
-margin-top: 5%;
-border-radius: 9px;
-}
-#content4img{
-width: 98%;
-margin-left: 1%;
-border-radius: 12px;
-         }
-.content4 h1{
-color:#AB8E5D;
-font-family: "Alegreya Sans SC", sans-serif;
-font-weight: 300;
-font-style: normal;
-margin-top:3%;
-}
-.content4 p1{
-color: rgb(116, 116, 116);
-font-family: "Alegreya Sans SC", sans-serif;
-font-weight: 100;
-font-style: normal;
-}  
-.content5{
-width: 60%;
-margin-left: 21%;
-border: 1px solid transparent;
-box-shadow: rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.2px;
-height: 35vh;
-margin-top: 5%
-;border-radius: 9px;
-}
-#content5img{
-width: 98%;
-margin-left: 1%;
-border-radius: 12px;
-}
-.content5 h1{
-color:#AB8E5D;
-font-family: "Alegreya Sans SC", sans-serif;
-font-weight: 300;
-font-style: normal;
-margin-top:3%;
-}
-.content5 p1{
-color: rgb(116, 116, 116);
-font-family: "Alegreya Sans SC", sans-serif;
-font-weight: 100;
-font-style: normal;
-}  
-.content6{
-width: 60%;
-margin-left: 21%;
-border: 1px solid transparent;
-box-shadow: rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.2px;
-height: 35vh;
-margin-top: 5%;
-border-radius: 9px;
-    }
-#content6img{
-width: 98%;
-margin-left: 1%;
-border-radius: 12px;
-}
-.content6 h1{
-color:#AB8E5D;
-font-family: "Alegreya Sans SC", sans-serif;
-font-weight: 300;
-font-style: normal;
-margin-top:3%;
-}
-.content6 p1{
-color: rgb(116, 116, 116);
-font-family: "Alegreya Sans SC", sans-serif;
-font-weight: 100;
-font-style: normal;
-}  
-.Container4{
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    background-image: url(AccessBackgroundIndex/contact\ us\ background.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 100%;
-    height: 115vh;
-    text-align: center;
-  }
-  .ContactUsh1andp h1{
-    font-family: "Alegreya Sans SC", sans-serif;
-    font-weight: 100;
-    font-style: normal;
-    color: #AB8E5D;
-    margin-top: 5%;
-  }
-  #contact {
-    width: 100%;
-    height: 100%;
-  }
-  
-  .section-header {
-    text-align: center;
-    margin: 0 auto;
-    padding: 40px 0;
-    font: 300 60px 'Oswald', sans-serif;
-    color: #fff;
-    text-transform: uppercase;
-    letter-spacing: 6px;
-  }
-  
-  .contact-wrapper {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    margin: 0 auto;
-    padding: 20px;
-    position: relative;
-    max-width: 840px;
-  }
-  .direct-contact-container, .form-horizontal {
-    margin: 0 auto;
-  }  
-  /* Left contact page */
-  
-  .form-control, 
-  textarea {
-    width: 70%;
-    background-color: #ffffff;
-    color: #757474;
-    letter-spacing: 1px;
-    margin-top: 4%;
-    border: 1px solid transparent;
-  }
-  #name{
-    height: 4vh;
-    border: 1px solid transparent;
-    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.4), 0px 7px 13px -3px rgba(0, 0, 0, 0.3)
-  }
-  #email{
-    height: 4vh;
-    border: 1px solid transparent;
-    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.4), 0px 7px 13px -3px rgba(0, 0, 0, 0.3)
-  }
-  #message{
-    border: 1px solid transparent;
-    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.4), 0px 7px 13px -3px rgba(0, 0, 0, 0.3)
-  }
-  .send-button {
-    margin-top: 15px;
-    height: 8vh;
-    width: 70%;
-    overflow: hidden;
-    transition: all .2s ease-in-out;
-    background-color: #AB8E5D;
-    
-  }
-  
-  .alt-send-button {
-    width: 100%;
-    height: px;
-    transition: all .2s ease-in-out;
-  }
-  
-  .send-text {
-    display: block;
-    margin-top: 10px;
-    font: 700 12px 'Lato', sans-serif;
-    letter-spacing: 2px;
-  }
-  
-  .alt-send-button:hover {
-    transform: translate3d(0px, -29px, 0px);
-    margin-top: 6%;
-  }
-  
-  /* Begin Right Contact Page */
-  .direct-contact-container {
-    margin-top: 60px;
-    max-width: 300px;
-  }
-  /* Location, Phone, Email Section */
-  .contact-list {
-    list-style-type: none;
-    padding-right: 20px;
-    font-size: 10px;
-  }
-  
-  .list-item {
-    line-height: 4;
-    color: #000000;
-  }
-  
-  .contact-text {
-    font: 300 13px 'Lato', sans-serif;
-    letter-spacing: 1.9px;
-    color: #000000;
-  }
-  
-  .place {
-    margin-left: 62px;
-  }
-  .phone {
-    margin-left: 56px;
-  }
-  
-  .gmail {
-    margin-left: 53px;
-  }
-  
-  .contact-text a {
-    color: #000000;
-    text-decoration: none;
-    transition-duration: 0.2s;
-  }
-  
-  .contact-text a:hover {
-    color: #fff;
-    text-decoration: none;
-  }
-  
-  
-  /* Social Media Icons */
-  .social-media-list {
-    position: relative;
-    font-size: 15px;
-    text-align: center;
-    width: 100%;
-    margin-top:8%;
-    padding: 0;
-  }
-  
-  .social-media-list li a {
-    color: #fff;
-    
-  }
-  
-  .social-media-list li {
-    position: relative; 
-    display: inline-block;
-    height: 60px;
-    width: 60px;
-    line-height: 60px;
-    margin: 17px 3px;
-    border-radius: 50%;
-    color: #fff;
-    background-color: rgb(27,27,27);
-    cursor: pointer; 
-    transition: all .2s ease-in-out;
-  }
-  
-  .social-media-list li:after {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 60px;
-    height: 60px;
-    line-height: 60px;
-    border-radius: 50%;
-    opacity: 0;
-    box-shadow: 0 0 0 1px #fff;
-    transition: all .2s ease-in-out;
-  }
-  
-  .social-media-list li:hover {
-    background-color: #fff; 
-  }
-  
-  .social-media-list li:hover:after {
-    opacity: 1;  
-    transform: scale(1.12);
-    transition-timing-function: cubic-bezier(0.37,0.74,0.15,1.65);
-  }
-  
-  .social-media-list li:hover a {
-    color: #000;
-  }
-  
-  .copyright {
-    font: 200 14px 'Oswald', sans-serif;
-    color: #555;
-    letter-spacing: 1px;
-    text-align: center;
-    margin-top: 15%;
-  }
-  
-  hr {
-    border-color: rgba(255,255,255,.6);
-  }
-  .ContainerFooter{
-    display: flex;
-    flex-direction:column;
-    background-color: #000;
-    width: 100%;
-    height: 20vh;
-  }
-  .ContainerFooter p{
-    color: #7a7878;
-    margin-top: 2%;
-  }
-  .FVPlogoFooter{
-    width: 30%;
-    margin-top: -1%;
-  }
-  @media screen and (min-width: 768px){
-
-  body{
-      background-image: url(AccessBackgroundIndex/bodybg.png);
-      background-repeat: no-repeat;
-      background-size: cover;
-      width: 100%;
-      height: 290vh;
-      text-align: center;
-  }
-    #FVPlogo{
-     margin-top: -2%;
-  }
-  .Header{
-    background-image: url(AccessforBackgroundContenthub/Content\ -\ hub.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    width:100%;
-    height: 60vh;
-    text-align: center;
-    
-}
-  .Header h1{
-    color: #ffffff;
-    font-family: "Alegreya Sans SC", sans-serif;
-    font-weight: 600;
-    font-style: normal;
-    margin-top: 20%;
-    margin-left: 35%;
-} 
-.Header p1{
-    color:#d4d4d4;
-    font-family: "Alegreya Sans SC", sans-serif;
-    font-weight: 100;
-    font-style: normal;
-    font-size: 15px;
-    margin-left:40%;
-    text-wrap: wrap;
-} 
-.Container2{
-  display: flex;
-  flex-direction: row;
-  background-color: grey;
-  width: 100%;
-  height: 17vh;
-}
-#spotify{
-  width: 30%;
-  
-}
-#youtube{
-  width: 30%;
-  margin-bottom: -1%;
-  }
-  .container3{
-    display: flex;
-    flex-direction: column;
-    background-image: url(AccessforBackgroundContenthub/background\ for\ content\ section.png);
-    width: 100%; 
-    background-repeat: no-repeat;
-    background-size: cover;
-    width:100%;
-    height: 150vh;
-}
-.content1{
-  width: 40%;
-  margin-left: 5%;
-  border: 1px solid transparent;
-  box-shadow: rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.2px;
-  height: 50vh;
-  margin-top: 5%;
-  border-radius: 9px;
-}
-#content1img{
-width: 98%;
-margin-left: 1%;
-border-radius: 12px;
-}
-.content1 h1{
-color:#AB8E5D;
-font-family: "Alegreya Sans SC", sans-serif;
-font-weight: 300;
- font-style: normal;
- margin-top:3%;
-  }
-.content1 p1{
-color: rgb(116, 116, 116);
-font-family: "Alegreya Sans SC", sans-serif;
-font-weight: 100;
-font-style: normal;
-  }
-
-.content2{
-  width: 40%;
-margin-left: 52%;
-border: 1px solid transparent;
-box-shadow: rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.2px;
-height: 50vh;
-margin-top: -33%;
-border-radius: 9px;
- }
-#content2img{
-width: 98%;
-margin-left: 1%;
-border-radius: 12px;
-  }
-.content2 h1{
-color:#AB8E5D;
-font-family: "Alegreya Sans SC", sans-serif;
-font-weight: 300;
-font-style: normal;
-margin-top:3%;
-}
-.content2 p1{
-color: rgb(116, 116, 116);
-font-family: "Alegreya Sans SC", sans-serif;
-font-weight: 100;
-font-style: normal;
-}
-
-.content3{
-width: 40%;
- margin-left: 5%;
-border: 1px solid transparent;
-box-shadow: rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.2px;
-height: 50vh;
-margin-top: 5%;
-border-radius: 9px;
-}
-#content3img{
-width: 98%;
-margin-left: 1%;
-border-radius: 12px;
-      }
-.content3 h1{
-color:#AB8E5D;
-font-family: "Alegreya Sans SC", sans-serif;
-font-weight: 300;
-font-style: normal;
-margin-top:3%;
-}
-.content3 p1{
-color: rgb(116, 116, 116);
-font-family: "Alegreya Sans SC", sans-serif;
-font-weight: 100;
-font-style: normal;
-}
-.content4{
-  width: 40%;
-  margin-left: 52%;
-  border: 1px solid transparent;
-  box-shadow: rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.2px;
-  height: 50vh;
-  margin-top: -33%;
-  border-radius: 9px;
-}
-#content4img{
-width: 98%;
-margin-left: 1%;
-border-radius: 12px;
-         }
-.content4 h1{
-color:#AB8E5D;
-font-family: "Alegreya Sans SC", sans-serif;
-font-weight: 300;
-font-style: normal;
-margin-top:3%;
-}
-.content4 p1{
-color: rgb(116, 116, 116);
-font-family: "Alegreya Sans SC", sans-serif;
-font-weight: 100;
-font-style: normal;
-}  
-.content5{
-  width: 40%;
-  margin-left: 5%;
- border: 1px solid transparent;
- box-shadow: rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.2px;
- height: 60vh;
- margin-top: 5%;
-}
-#content5img{
-width: 98%;
-margin-left: 1%;
-border-radius: 12px;
-}
-.content5 h1{
-color:#AB8E5D;
-font-family: "Alegreya Sans SC", sans-serif;
-font-weight: 300;
-font-style: normal;
-margin-top:3%;
-}
-.content5 p1{
-color: rgb(116, 116, 116);
-font-family: "Alegreya Sans SC", sans-serif;
-font-weight: 100;
-font-style: normal;
-}  
-.content6{
-  width: 40%;
-  margin-left: 52%;
-  border: 1px solid transparent;
-  box-shadow: rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.2px;
-  height: 50vh;
-  margin-top: -33%;
-  border-radius: 9px;
-    }
-#content6img{
-width: 98%;
-margin-left: 1%;
-border-radius: 12px;
-}
-.content6 h1{
-color:#AB8E5D;
-font-family: "Alegreya Sans SC", sans-serif;
-font-weight: 300;
-font-style: normal;
-margin-top:3%;
-}
-.content6 p1{
-color: rgb(116, 116, 116);
-font-family: "Alegreya Sans SC", sans-serif;
-font-weight: 100;
-font-style: normal;
-}
-#name{
-  height: 8vh;
-}
-#email{
-  height: 8vh;
-}
-
-.send-button {
-  height: 10vh;
-  width: 70%;
-  overflow: hidden;
-  transition: all .2s ease-in-out;
-  background-color: #AB8E5D;
-}
-.Container4{
-height:160vh;
-margin-top: 20%;
-}
-.ContainerFooter{
-  display: flex;
-  flex-direction:column;
-  background-color: #000;
-  width: 100%;
-  height: 40vh;
-}
-.FVPlogoFooter{
-  width: 30%;
-  margin-top: -1%;
-}
-}
-
-@media screen and (min-width: 1024px){
-  #FVPlogo{
-    margin-top: 0%;
- }
-  .navbar a{
-    display: flex;
-    margin-top: 4%;
-    text-decoration: none;
-    color: rgb(207, 206, 206);
-    font-family: "Alegreya Sans SC", sans-serif;
-    font-weight: 100;
-    font-style: normal;
-    transition: 1s;
-    height: 4vh;
-  }
-  #Contact-usnav{
-    margin-left: 5%;
-  }
-  #Content-hubnav{
-    margin-left: 5%;
-    background-color:#AB8E5D;
-    border: 1px solid transparent;
-    color: white;
-    padding: 0px 11px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin-top: 4%;
-    height: 4vh;
-  }
-  #R2nav{
-    margin-left: 5%;
-  }
-  #R1nav{
-    margin-left: 5%;
-  }
-  #Homenav{
-    margin-left: 15%;
-
-  }
-  .Header{
-    background-image: url(AccessforBackgroundContenthub/Content\ -\ hub.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 100%;
-    height: 80vh;
-    margin-top: -15%;
-    text-align: center;   
-}
-  #FVPlogo{
-    width: 20%;
-    z-index: 1;
-}
-  .Menubar{
-    display: none;
-}
-.navbar a{
-  display: flex;
-  z-index: 1;
-}
-.navbar a:hover{
-  margin-left: 28%;
+.navPC a:hover{
   background-color:#AB8E5D;
   border: 1px solid transparent;
   color: white;
-  padding: 1px 11px;
+  padding: 3px 16px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
-  margin-top: 4%;
   height: 4vh;
+}
+.Menubarcontainer{
+  width: 70%;
+}
+.Menubar{
+   float: right;
+   padding-right: 8%;
+}
+.Container1{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.Header{
+  background-image: url(AccessforBackgroundContenthub/Content\ -\ hub.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  padding-bottom:20%;
+  width: 100%;; 
+}
+.Header h1{
+  color: #ffffff;
+  font-family: "Alegreya Sans SC", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 25px;
+  padding-top: 20%;
+} 
+.Header p1{
+  color:#d4d4d4;
+  font-family: "Alegreya Sans SC", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+  font-size: 13px
+} 
+.ContainerYoutubeSpotify{
+  width:100%;
+  flex-direction: row;
+}
+.Grey{
+  display: flex;
+  background-color: rgb(123, 124, 123);
+  align-items: center;
+  justify-content: center;
+}
+#contentlogoY{
+  width: 30%;
+  padding-top: 3%;
+}
+#contentlogoS{
+  width: 30%;
 }
 .Container2{
   display: flex;
-  flex-direction: row;
-  background-color: grey;
-  width: 100%;
-  height: 19vh;
-}
-#spotify{
-  width: 20%;
-
-  
-}
-#youtube{
-  width: 20%;
-
-}
-.container3{
-  display: flex;
   flex-direction: column;
-  background-image: url(AccessforBackgroundContenthub/background\ for\ content\ section.png);
+  /*background-image: url(AccessforBackgroundContenthub/background\ for\ content\ section.png);*/
   width: 100%; 
   background-repeat: no-repeat;
-  background-size: cover;
-  width:100%;
-  height: 120vh;
+  background-size: cover; 
+  text-align: center;
+  align-items: center;
+  padding-top: 2%;
 }
 .content1{
-  width: 20%;
-  margin-left: 15%;
-  border: 1px solid transparent;
-  box-shadow: rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.2px;
-  height: 40vh;
-  margin-top: 5%;
-  border-radius: 9px;
+width: 60%;
+box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+background-color: white;
+border-radius: 10px;
+margin: 3%; 
+padding-bottom: 5%;
 }
 #content1img{
-width: 98%;
-margin-left: 1%;
-border-radius: 12px;
+width:90%;
+border-radius: 10px;
 }
-.content1 h1{
+.content1 h3{
 color:#AB8E5D;
 font-family: "Alegreya Sans SC", sans-serif;
-font-weight: 300;
- font-style: normal;
- margin-top:3%;
-  }
-.content1 p1{
-color: rgb(116, 116, 116);
+font-weight: 600;
+font-style: normal;
+font-style: 15px;
+}
+.content1 p {
+  color: rgb(112, 111, 111);
 font-family: "Alegreya Sans SC", sans-serif;
 font-weight: 100;
 font-style: normal;
-  }
+font-size: 10px;
+padding-top: 2%;
+}
 
 .content2{
-  width: 20%;
-margin-left: 40%;
-border: 1px solid transparent;
-box-shadow: rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.2px;
-height: 40vh;
-margin-top: -18.60%;
-border-radius: 9px;
- }
+width: 60%;
+box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+background-color: white;
+border-radius: 10px;
+padding-bottom: 5%;
+margin: 3%; 
+}
 #content2img{
-width: 98%;
-margin-left: 1%;
-border-radius: 12px;
-  }
-.content2 h1{
+  width:90%;
+  border-radius: 10px;
+}
+.content2 h3{
 color:#AB8E5D;
 font-family: "Alegreya Sans SC", sans-serif;
-font-weight: 300;
-font-style: normal;
-margin-top:3%;
+font-weight: 600;
+ font-style: normal;
+ font-style: 15px;
 }
-.content2 p1{
-color: rgb(116, 116, 116);
+.content2 p{
+  color: rgb(112, 111, 111);
 font-family: "Alegreya Sans SC", sans-serif;
 font-weight: 100;
 font-style: normal;
+font-size: 10px;
 }
 
 .content3{
-  width: 20%;
-  margin-left: 65%;
-  border: 1px solid transparent;
-  box-shadow: rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.2px;
-  height: 40vh;
-  margin-top: -18.60%;
-  border-radius: 9px;
+width: 60%;
+box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+background-color: white;
+border-radius: 10px;
+padding-bottom: 5%;
+margin: 3%; 
 }
 #content3img{
-width: 98%;
-margin-left: 1%;
-border-radius: 12px;
-      }
-.content3 h1{
+  width:90%;
+  border-radius: 10px;
+
+}
+.content3 h3{
 color:#AB8E5D;
 font-family: "Alegreya Sans SC", sans-serif;
-font-weight: 300;
+font-weight: 600;
 font-style: normal;
-margin-top:3%;
+font-style: 15px;
+
 }
-.content3 p1{
-color: rgb(116, 116, 116);
+.content3 p {
+  color: rgb(112, 111, 111);
 font-family: "Alegreya Sans SC", sans-serif;
 font-weight: 100;
 font-style: normal;
+font-size: 10px;
+padding-top: 2%;
 }
+.Container3{
+display: flex;
+  flex-direction: column;
+  /*background-image: url(AccessforBackgroundContenthub/background\ for\ content\ section.png);*/
+  width: 100%; 
+  background-repeat: no-repeat;
+  background-size: cover; 
+  text-align: center;
+  align-items: center;
+  padding-top: 2%;
+}
+
 .content4{
-  width: 20%;
-  margin-left: 15%;
-  border: 1px solid transparent;
-  box-shadow: rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.2px;
-  height: 40vh;
-  margin-top: 2%;
-  border-radius: 9px;
+  width: 60%;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+  background-color: white;
+  border-radius: 10px;
+  padding-bottom: 5%;
+  margin: 3%;
 }
 #content4img{
-width: 98%;
-margin-left: 1%;
-border-radius: 12px;
-         }
-.content4 h1{
+  width:90%;
+  border-radius: 10px;
+}
+.content4 h3{
 color:#AB8E5D;
 font-family: "Alegreya Sans SC", sans-serif;
-font-weight: 300;
+font-weight: 600;
 font-style: normal;
-margin-top:3%;
+font-style: 15px;
 }
-.content4 p1{
-color: rgb(116, 116, 116);
+.content4 p{
+  color: rgb(112, 111, 111);
 font-family: "Alegreya Sans SC", sans-serif;
 font-weight: 100;
 font-style: normal;
-}  
+font-size: 10px;
+padding-top: 2%;
+}
 .content5{
-  width: 20%;
-margin-left: 40%;
-border: 1px solid transparent;
-box-shadow: rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.2px;
-height: 40vh;
-margin-top: -18.60%;
-border-radius: 9px;;
+  width: 60%;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+  background-color: white;
+  border-radius: 10px;
+  padding-bottom: 5%;
+  margin: 3%;
 }
 #content5img{
-width: 98%;
-margin-left: 1%;
-border-radius: 12px;
+  width:90%;
+  border-radius: 10px;
 }
-.content5 h1{
+.content5 h3{
 color:#AB8E5D;
 font-family: "Alegreya Sans SC", sans-serif;
-font-weight: 300;
+font-weight: 600;
 font-style: normal;
-margin-top:3%;
+font-style: 15px;
 }
-.content5 p1{
-color: rgb(116, 116, 116);
+.content5 p{
+  color: rgb(112, 111, 111);
 font-family: "Alegreya Sans SC", sans-serif;
 font-weight: 100;
 font-style: normal;
-}  
+font-size: 10px;
+padding-top: 2%;
+}
 .content6{
-  width: 20%;
-  margin-left: 65%;
-  border: 1px solid transparent;
-  box-shadow: rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.2px;
-  height: 40vh;
-  margin-top: -18.60%;
-  border-radius: 9px;
-    }
-#content6img{
-width: 98%;
-margin-left: 1%;
-border-radius: 12px;
+  width: 60%;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+  background-color: white;
+  border-radius: 10px;
+  padding-bottom: 5%;
+  margin: 3%;
 }
-.content6 h1{
+#content6img{
+  width:90%;
+  border-radius: 10px;
+}
+.content6 h3{
 color:#AB8E5D;
 font-family: "Alegreya Sans SC", sans-serif;
-font-weight: 300;
+font-weight: 600;
 font-style: normal;
-margin-top:3%;
+font-style: 15px;
 }
-.content6 p1{
-color: rgb(116, 116, 116);
+.content6 p{
+  color: rgb(112, 111, 111);
 font-family: "Alegreya Sans SC", sans-serif;
 font-weight: 100;
 font-style: normal;
+font-size: 10px;
+padding-top: 2%;
 }
+.Container{
+display: flex;
+flex-direction: column;
+text-align: center;
+width: 100%;
+text-align: center;
+padding-top: 10%;
+}
+.ContactUsh1andp{
+width: 100%;
+}
+.ContactUsh1andp h1{
+font-family: "Alegreya Sans SC", sans-serif;
+font-weight: 100;
+font-style: normal;
+color: #AB8E5D;
+
+}
+.containerContact{
+display: flex;
+flex-direction: column;
+text-align: center;
+width: 100%;
+text-align: center;
+}
+
+input{
+  border-radius: 10px;
+  padding-top: 4%;
+  padding-bottom: 4%;
+  line-height: 10px;
+}
+textarea{
+  border-radius: 10px;
+}
+
+#contact {
+  width: 100%;
+  height: 100%;
+}
+
 .section-header {
   text-align: center;
-  margin: 0 auto;
-  padding: 40px 0;
   font: 300 60px 'Oswald', sans-serif;
   color: #fff;
   text-transform: uppercase;
@@ -1036,38 +367,38 @@ font-style: normal;
 
 .contact-wrapper {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: space-between;
   margin: 0 auto;
   padding: 20px;
   position: relative;
-  max-width: 840px;
+ width: 100%;
 }
-
+.direct-contact-container {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  width: 100%;
+  text-align: center;
+}  
 /* Left contact page */
-.form-horizontal {
-  float: left;
-  max-width: 400px;
-  font-family: 'Lato';
-  font-weight: 400;
-  margin-top: 2%;
-}
 
 .form-control, 
 textarea {
-  max-width: 600px;
+  width: 70%;
   background-color: #ffffff;
-  color: #7a7878;
+  color: #757474;
   letter-spacing: 1px;
-  margin-left: 69%;
+  margin-top: 4%;
+  border: 1px solid transparent;
 }
 #name{
-  height: 7vh;
+  height: 4vh;
   border: 1px solid transparent;
   box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.4), 0px 7px 13px -3px rgba(0, 0, 0, 0.3)
 }
 #email{
-  height: 7vh;
+  height: 4vh;
   border: 1px solid transparent;
   box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.4), 0px 7px 13px -3px rgba(0, 0, 0, 0.3)
 }
@@ -1077,44 +408,34 @@ textarea {
 }
 .send-button {
   margin-top: 15px;
-  height: 34px;
-  width: 280px;
+  height: 8vh;
+  width: 70%;
   overflow: hidden;
-  transition: all .2s ease-in-out;
-  margin-left: 69%;
+  background-color: #e7cda0;
+  border: none;
+  border-radius: 10px;
 }
-
-.alt-send-button {
-  width: 200px;
-  margin-top: 4%;
-  height: 34px;
-  transition: all .2s ease-in-out;
-  margin-left: 14%;
+.send-button:hover{
+  background-color: #f8f8f8;
+  border: 2px solid #e7cda0;
 }
-
 .send-text {
   display: block;
-  margin-top: 10.5px;
+  margin-top: 10px;
   font: 700 12px 'Lato', sans-serif;
   letter-spacing: 2px;
 }
 
-.alt-send-button:hover {
-  transform: translate3d(0px, -29px, 0px);
-}
-
 /* Begin Right Contact Page */
 .direct-contact-container {
-  max-width: 400px;
-  margin-right:-180%;
-  margin-top: -85%;
+  padding-top: 10%;
+  width: 100%;
 }
-
 /* Location, Phone, Email Section */
 .contact-list {
   list-style-type: none;
-  margin-left: -30px;
   padding-right: 20px;
+  font-size: 10px;
 }
 
 .list-item {
@@ -1131,7 +452,6 @@ textarea {
 .place {
   margin-left: 62px;
 }
-
 .phone {
   margin-left: 56px;
 }
@@ -1147,32 +467,33 @@ textarea {
 }
 
 .contact-text a:hover {
-  color: grey;
+  color: #fff;
   text-decoration: none;
 }
 
 
 /* Social Media Icons */
 .social-media-list {
+  position: relative;
   font-size: 15px;
   text-align: center;
   width: 100%;
-  margin-top:3%;
+
   padding: 0;
 }
 
 .social-media-list li a {
   color: #fff;
+  
 }
 
 .social-media-list li {
   position: relative; 
   display: inline-block;
-  height: 30px;
-  width: 30px;
-  font-size: 10px;
-  margin: 10px 3px;
-  line-height: 35px;
+  height: 60px;
+  width: 60px;
+  line-height: 60px;
+  margin: 17px 3px;
   border-radius: 50%;
   color: #fff;
   background-color: rgb(27,27,27);
@@ -1185,9 +506,9 @@ textarea {
   position: absolute;
   top: 0;
   left: 0;
-  height: 30px;
-  width: 30px;
-  line-height: 35px;
+  width: 60px;
+  height: 60px;
+  line-height: 60px;
   border-radius: 50%;
   opacity: 0;
   box-shadow: 0 0 0 1px #fff;
@@ -1213,45 +534,130 @@ textarea {
   color: #555;
   letter-spacing: 1px;
   text-align: center;
+  margin-top: 15%;
 }
 
 hr {
   border-color: rgba(255,255,255,.6);
-}
-.Container4{
-  display: flex;
-  flex-direction: column;
-  text-align: center;
-  background-image: url(AccessBackgroundIndex/contact\ us\ background.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-  width: 100%;
-  height: 85vh;
-  text-align: center;
-  margin-top: -8%;
-}
-.copyright {
-  font: 200 14px 'Oswald', sans-serif;
-  color: #555;
-  letter-spacing: 1px;
-  text-align: center;
-  margin-top: 50%;
-  margin-left: -145%;
 }
 .ContainerFooter{
   display: flex;
   flex-direction:column;
   background-color: #000;
   width: 100%;
-  height:40vh;
-  margin-top:15%;
+  text-align: center;
+  padding-top: 2%;
+  margin-top: 4%;
 }
- .ContainerFooter p{
+.ContainerFooter p{
   color: #7a7878;
-  margin-top: 2%;
- }
+
+}
 .FVPlogoFooter{
+  width: 40%;
+}
+@media screen and (min-width: 1024px){
+.navbar{
+  width: 50%;
+}
+.Menubarcontainer{
+  width: 0%;
+}
+.navbarpc{
+  width: 100%;
+  display: flex;
+}
+
+.Header{
+  height: 60vh;
+ 
+}
+.Header h1{
+  font-size: 40px;
+
+  padding-top: 15%;
+  padding-left: 15%;
+}
+.navPC{
+  padding-top:4%;
+  width: 100%;
+  text-align: center;
+  justify-content: space-between;
+}
+#Content-hubnav{
+    background-color:#AB8E5D;
+    border: 1px solid transparent;
+    color: white;
+    padding: 3px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    height: 4vh;
+}
+ .Menubar{
+  display: none;
+ }
+  .content1{
+    width: 20%;
+    padding-bottom: 2%;
+  }
+  .content2{
+     width: 20%;
+     padding-bottom: 2%;
+  }
+  .content3{
+     width: 20%;
+    padding-bottom: 2%;
+  }
+  .content4{
+     width: 20%;
+     padding-bottom: 2%;
+  }  
+  .content5{
+    width: 20%;
+    padding-bottom: 2%;
+ } 
+ .content6{
   width: 20%;
-  margin-top: -2%;
+  padding-bottom: 2%;
+} 
+  .Container2{
+    flex-direction: row;
+    display: flex;
+    justify-content: center;
+ }
+ .Container3{
+   flex-direction: row;
+   display: flex;
+   justify-content: center;
+ 
+ }
+.containerContact{
+display: flex;
+flex-direction:row;
+justify-content: center;
+
+}
+.direct-contact-container {
+width: 50%;
+}
+.Container{
+  padding-top: 2%;
+  }
+.FVPlogoFooter{
+width: 20%;
+}
+#contentlogoY{
+  width: 20%;
+  padding-top: 2%;
+}
+#contentlogoS{
+  width: 20%;
+}
+.Grey{
+  display: flex;
+  background-color: rgb(123, 124, 123);
+  height: 10vh;
 }
 }
