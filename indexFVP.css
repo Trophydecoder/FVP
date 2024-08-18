@@ -15,7 +15,7 @@ body{
     height: 100%;
 }
 #FVPlogo{
-    width: 40%;
+    width: 50%;
 }
 .sidenav {
     height: 100%;
@@ -97,17 +97,18 @@ body{
   background-repeat: no-repeat;
   background-size: cover;
   text-align: center;
-  padding-bottom: 6%;
+  padding-bottom: 10%;
   width: 100%;
 }
 .Header h1{
-  padding-top: 5%;
+  padding-top: 12%;
     color: #AB8E5D;
     font-family: "Alegreya Sans SC", sans-serif;
     font-weight: 600;
     font-style: normal;
 } 
 .Header p{
+    display: none;
     color:#cccccc;
     font-family: "Alegreya Sans SC", sans-serif;
     font-weight: 100;
@@ -136,6 +137,15 @@ body{
 .Headerbutton:hover{
   background-color:rgb(59, 44, 3);
 }
+.ContainerAboutimgMobile{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+.image{
+  display: flex;
+  justify-content: center;
+}
 .Container2{
   display: flex;
   flex-direction: column;
@@ -149,11 +159,12 @@ body{
 .AboutUs h1{
     color: #AB8E5D;
     font-family: "Alegreya Sans SC", sans-serif;
-    font-weight: 100;
+    font-weight: 500;
     font-style: normal;
+    font-size: 28px;
 } 
 .AboutUs p1{
-    color: rgb(133, 130, 130);
+    color: rgb(59, 58, 58);
     font-family: "Alegreya Sans SC", sans-serif;
     font-weight: 100;
     font-style: normal;
@@ -164,6 +175,7 @@ body{
   justify-content: center;
   align-items: center;
   text-align: center;
+  display: none;
 }
 .Aboutusimage{
     width: 70%;
@@ -180,13 +192,14 @@ body{
     padding-top: 6%;
 }
 .ServicesHandP h1{
-    color: #AB8E5D;
-    font-family: "Alegreya Sans SC", sans-serif;
-    font-weight: 100;
-    font-style: normal;
+  color: #AB8E5D;
+  font-family: "Alegreya Sans SC", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 28px;
 }
 .ServicesHandP p1{
-    color: rgb(133, 130, 130);
+    color: rgb(77, 77, 77);
     font-family: "Alegreya Sans SC", sans-serif;
     font-weight: 100;
     font-style: normal;
@@ -215,6 +228,13 @@ body{
 }
 .Containerservices1 h3{
   color: #AB8E5D;
+  font-family: "Alegreya Sans SC", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+  padding-bottom: 5%;
+}
+.Containerservices1 p1{
+  color: rgb(155, 154, 154);
   font-family: "Alegreya Sans SC", sans-serif;
   font-weight: 100;
   font-style: normal;
@@ -264,10 +284,11 @@ body{
 align-items: center;
 }
 .Clientswords h1{
-    font-family: "Alegreya Sans SC", sans-serif;
-    font-weight: 100;
-    font-style: normal;
-    color: #AB8E5D;
+  color: #AB8E5D;
+  font-family: "Alegreya Sans SC", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 28px;
 }
 .slides {
     width: 50%;
@@ -284,11 +305,12 @@ align-items: center;
   width: 100%;
 }
 .ContactUsh1andp h1{
-  font-family: "Alegreya Sans SC", sans-serif;
-  font-weight: 100;
-  font-style: normal;
   color: #AB8E5D;
-  padding-top: 2%;
+  font-family: "Alegreya Sans SC", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 28px;
+  padding-top: 5%;
   
 }
 .containerContact{
@@ -352,19 +374,17 @@ textarea {
 #name{
   height: 4vh;
   border: 1px solid transparent;
-  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.4), 0px 7px 13px -3px rgba(0, 0, 0, 0.3);
-  font-size: 13px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.4), 0px 7px 13px -3px rgba(0, 0, 0, 0.3)
 }
 #email{
   height: 4vh;
   border: 1px solid transparent;
-  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.4), 0px 7px 13px -3px rgba(0, 0, 0, 0.3);
-  font-size: 13px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.4), 0px 7px 13px -3px rgba(0, 0, 0, 0.3)
 }
 #message{
   border: 1px solid transparent;
   box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.4), 0px 7px 13px -3px rgba(0, 0, 0, 0.3);
-  font-size: 17px;
+  font-size: 15px;
   padding-top: 2%;
 }
 .send-button {
@@ -428,7 +448,7 @@ textarea {
 }
 
 .contact-text a:hover {
-  color: #9c9c9c;
+  color: #fff;
   text-decoration: none;
 }
 
@@ -522,17 +542,35 @@ hr {
   width: 10%;
 }
 
+
 /*desktop*/
 @media screen and (min-width: 1024px){
+  .ContainerAboutimg{
+       display: flex;
+  }
+  .image{
+    display: flex;
+    justify-content: center;
+    display: none;
+  }
+  .Header p{
+    display: flex;
+    color:#cccccc;
+    font-family: "Alegreya Sans SC", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    font-size: 13px;
+    padding-top: 0%;
+    text-align: center;
+    justify-content: center;
+} 
   .Header{
     height: 60vh;
-    padding-top: 5%;
+   justify-content: center;
+   text-align: center;
   }
   .Header h1{
     font-size: 50px;
-  }
-  .Header p1{
-     font-size: 15px;
   }
   .navbar{
   
@@ -585,6 +623,12 @@ hr {
 }
 .ContainerAboutimg{
 width: 40%;
+}
+#message{
+  border: 1px solid transparent;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.4), 0px 7px 13px -3px rgba(0, 0, 0, 0.3);
+  font-size: 15px;
+  padding-top: 2%;
 }
 .ContainerServicesImagesFirstrow{
   display: flex;

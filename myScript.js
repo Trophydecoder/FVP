@@ -19,11 +19,11 @@ function openNav() {
 
   document.getElementById('mar')
               .addEventListener('click', function () {
-                window.location.href = './Marketing intelligence.html';
+                window.location.href = './MarketingIntelligence.html';
               });
   document.getElementById('exe')
               .addEventListener('click', function () {
-                window.location.href = './Execution Intelligency.html';
+                window.location.href = './ExecutionIntelligency.html';
               });           
   document.getElementById('btn')
               .addEventListener('click', function () {
