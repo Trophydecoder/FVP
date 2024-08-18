@@ -5,7 +5,7 @@
   
 }
 body{
-  background-image: url(AccessforBackgroundContenthub/background\ for\ content\ section.png);
+  background-image: url(AccessBackgroundIndex/footerbg.png);
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
@@ -89,11 +89,11 @@ width: 40%;
   width: 100%;
 }
 .Header{
-  background-image: url(AccessforBackgroundContenthub/Content\ -\ hub.png);
+  background-image: url(AcessExecution/executionbg.png);
   background-repeat: no-repeat;
   background-size: cover;
   text-align: center;
-  padding-bottom:20%;
+  padding-bottom: 10%;
   width: 100%;; 
 }
 .Header h1{
@@ -102,32 +102,17 @@ width: 40%;
   font-weight: 600;
   font-style: normal;
   font-size: 25px;
-  padding-top: 20%;
+  padding-top: 5%;
 } 
-.Header p1{
+.Header p{
   color:#d4d4d4;
   font-family: "Alegreya Sans SC", sans-serif;
   font-weight: 100;
   font-style: normal;
-  font-size: 13px
+  font-size: 13px;
+  padding-top: 1%;
 } 
-.ContainerYoutubeSpotify{
-  width:100%;
-  flex-direction: row;
-}
-.Grey{
-  display: flex;
-  background-color: rgb(123, 124, 123);
-  align-items: center;
-  justify-content: center;
-}
-#contentlogoY{
-  width: 30%;
-  padding-top: 3%;
-}
-#contentlogoS{
-  width: 30%;
-}
+
 .Container2{
   display: flex;
   flex-direction: column;
@@ -148,8 +133,7 @@ margin: 3%;
 padding-bottom: 5%;
 }
 #content1img{
-width:90%;
-border-radius: 10px;
+width: 47%;
 }
 .content1 h3{
 color:#AB8E5D;
@@ -158,13 +142,13 @@ font-weight: 600;
 font-style: normal;
 font-style: 15px;
 }
-.content1 p {
+.content1 p{
   color: rgb(112, 111, 111);
 font-family: "Alegreya Sans SC", sans-serif;
 font-weight: 100;
 font-style: normal;
-font-size: 10px;
-padding-top: 2%;
+font-size: 13px;
+padding-top: 1%;
 }
 
 .content2{
@@ -176,8 +160,7 @@ padding-bottom: 5%;
 margin: 3%; 
 }
 #content2img{
-  width:90%;
-  border-radius: 10px;
+width: 50%;
 }
 .content2 h3{
 color:#AB8E5D;
@@ -187,11 +170,19 @@ font-weight: 600;
  font-style: 15px;
 }
 .content2 p{
-  color: rgb(112, 111, 111);
+color: rgb(112, 111, 111);
 font-family: "Alegreya Sans SC", sans-serif;
 font-weight: 100;
 font-style: normal;
-font-size: 10px;
+font-size: 13px;
+padding-top: 1%;
+}
+.Container3{
+display: flex;
+flex-direction: column;
+width: 100%; 
+text-align: center;
+align-items: center;
 }
 
 .content3{
@@ -203,8 +194,7 @@ padding-bottom: 5%;
 margin: 3%; 
 }
 #content3img{
-  width:90%;
-  border-radius: 10px;
+width:50%;
 
 }
 .content3 h3{
@@ -220,21 +210,9 @@ font-style: 15px;
 font-family: "Alegreya Sans SC", sans-serif;
 font-weight: 100;
 font-style: normal;
-font-size: 10px;
-padding-top: 2%;
+font-size: 13px;
+padding-top: 1%;
 }
-.Container3{
-display: flex;
-  flex-direction: column;
-  /*background-image: url(AccessforBackgroundContenthub/background\ for\ content\ section.png);*/
-  width: 100%; 
-  background-repeat: no-repeat;
-  background-size: cover; 
-  text-align: center;
-  align-items: center;
-  padding-top: 2%;
-}
-
 .content4{
   width: 60%;
   box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
@@ -244,8 +222,7 @@ display: flex;
   margin: 3%;
 }
 #content4img{
-  width:90%;
-  border-radius: 10px;
+width: 50%;
 }
 .content4 h3{
 color:#AB8E5D;
@@ -259,62 +236,8 @@ font-style: 15px;
 font-family: "Alegreya Sans SC", sans-serif;
 font-weight: 100;
 font-style: normal;
-font-size: 10px;
-padding-top: 2%;
-}
-.content5{
-  width: 60%;
-  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
-  background-color: white;
-  border-radius: 10px;
-  padding-bottom: 5%;
-  margin: 3%;
-}
-#content5img{
-  width:90%;
-  border-radius: 10px;
-}
-.content5 h3{
-color:#AB8E5D;
-font-family: "Alegreya Sans SC", sans-serif;
-font-weight: 600;
-font-style: normal;
-font-style: 15px;
-}
-.content5 p{
-  color: rgb(112, 111, 111);
-font-family: "Alegreya Sans SC", sans-serif;
-font-weight: 100;
-font-style: normal;
-font-size: 10px;
-padding-top: 2%;
-}
-.content6{
-  width: 60%;
-  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
-  background-color: white;
-  border-radius: 10px;
-  padding-bottom: 5%;
-  margin: 3%;
-}
-#content6img{
-  width:90%;
-  border-radius: 10px;
-}
-.content6 h3{
-color:#AB8E5D;
-font-family: "Alegreya Sans SC", sans-serif;
-font-weight: 600;
-font-style: normal;
-font-style: 15px;
-}
-.content6 p{
-  color: rgb(112, 111, 111);
-font-family: "Alegreya Sans SC", sans-serif;
-font-weight: 100;
-font-style: normal;
-font-size: 10px;
-padding-top: 2%;
+font-size: 13px;
+padding-top: 1%;
 }
 .Container{
 display: flex;
@@ -551,11 +474,16 @@ hr {
 }
 .ContainerFooter p{
   color: #7a7878;
+  font-family: "Alegreya Sans SC", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+  font-size: 10px;
 
 }
-.FVPlogoFooter{
-  width: 40%;
+#FVPlogoFooterimg{
+  width: 10%;
 }
+
 @media screen and (min-width: 1024px){
 .navbar{
   width: 50%;
@@ -570,13 +498,13 @@ hr {
 
 .Header{
   height: 60vh;
- 
+  padding-top: 5%;
 }
 .Header h1{
-  font-size: 40px;
-
-  padding-top: 15%;
-  padding-left: 15%;
+  font-size: 50px;
+}
+.Header p1{
+   font-size: 15px;
 }
 .navPC{
   padding-top:4%;
@@ -584,7 +512,7 @@ hr {
   text-align: center;
   justify-content: space-between;
 }
-#Content-hubnav{
+#R2nav{
     background-color:#AB8E5D;
     border: 1px solid transparent;
     color: white;
@@ -614,14 +542,6 @@ hr {
      width: 20%;
      padding-bottom: 2%;
   }  
-  .content5{
-    width: 20%;
-    padding-bottom: 2%;
- } 
- .content6{
-  width: 20%;
-  padding-bottom: 2%;
-} 
   .Container2{
     flex-direction: row;
     display: flex;
@@ -630,14 +550,13 @@ hr {
  .Container3{
    flex-direction: row;
    display: flex;
-   justify-content: center;
- 
+   justify-content:center;
+   margin-top: -3%;
  }
 .containerContact{
 display: flex;
 flex-direction:row;
 justify-content: center;
-
 }
 .direct-contact-container {
 width: 50%;
@@ -647,17 +566,5 @@ width: 50%;
   }
 .FVPlogoFooter{
 width: 20%;
-}
-#contentlogoY{
-  width: 20%;
-  padding-top: 2%;
-}
-#contentlogoS{
-  width: 20%;
-}
-.Grey{
-  display: flex;
-  background-color: rgb(123, 124, 123);
-  height: 10vh;
 }
 }

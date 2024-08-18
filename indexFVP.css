@@ -147,13 +147,13 @@ body{
    text-align: center;
 }
 .AboutUs h1{
-    color:  rgb(160, 159, 159);
+    color: #AB8E5D;
     font-family: "Alegreya Sans SC", sans-serif;
     font-weight: 100;
     font-style: normal;
 } 
 .AboutUs p1{
-    color: rgb(59, 58, 58);
+    color: rgb(133, 130, 130);
     font-family: "Alegreya Sans SC", sans-serif;
     font-weight: 100;
     font-style: normal;
@@ -180,13 +180,13 @@ body{
     padding-top: 6%;
 }
 .ServicesHandP h1{
-  color:  rgb(160, 159, 159);
+    color: #AB8E5D;
     font-family: "Alegreya Sans SC", sans-serif;
     font-weight: 100;
     font-style: normal;
 }
 .ServicesHandP p1{
-    color: rgb(77, 77, 77);
+    color: rgb(133, 130, 130);
     font-family: "Alegreya Sans SC", sans-serif;
     font-weight: 100;
     font-style: normal;
@@ -215,13 +215,6 @@ body{
 }
 .Containerservices1 h3{
   color: #AB8E5D;
-  font-family: "Alegreya Sans SC", sans-serif;
-  font-weight: 100;
-  font-style: normal;
-  padding-bottom: 5%;
-}
-.Containerservices1 p1{
-  color: rgb(155, 154, 154);
   font-family: "Alegreya Sans SC", sans-serif;
   font-weight: 100;
   font-style: normal;
@@ -274,7 +267,7 @@ align-items: center;
     font-family: "Alegreya Sans SC", sans-serif;
     font-weight: 100;
     font-style: normal;
-    color:  rgb(160, 159, 159);
+    color: #AB8E5D;
 }
 .slides {
     width: 50%;
@@ -294,7 +287,7 @@ align-items: center;
   font-family: "Alegreya Sans SC", sans-serif;
   font-weight: 100;
   font-style: normal;
-  color:  rgb(160, 159, 159);
+  color: #AB8E5D;
   padding-top: 2%;
   
 }
@@ -359,16 +352,20 @@ textarea {
 #name{
   height: 4vh;
   border: 1px solid transparent;
-  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.4), 0px 7px 13px -3px rgba(0, 0, 0, 0.3)
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.4), 0px 7px 13px -3px rgba(0, 0, 0, 0.3);
+  font-size: 13px;
 }
 #email{
   height: 4vh;
   border: 1px solid transparent;
-  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.4), 0px 7px 13px -3px rgba(0, 0, 0, 0.3)
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.4), 0px 7px 13px -3px rgba(0, 0, 0, 0.3);
+  font-size: 13px;
 }
 #message{
   border: 1px solid transparent;
-  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.4), 0px 7px 13px -3px rgba(0, 0, 0, 0.3)
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.4), 0px 7px 13px -3px rgba(0, 0, 0, 0.3);
+  font-size: 17px;
+  padding-top: 2%;
 }
 .send-button {
   margin-top: 15px;
@@ -431,7 +428,7 @@ textarea {
 }
 
 .contact-text a:hover {
-  color: #fff;
+  color: #9c9c9c;
   text-decoration: none;
 }
 
@@ -515,10 +512,14 @@ hr {
 }
 .ContainerFooter p{
   color: #7a7878;
+  font-family: "Alegreya Sans SC", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+  font-size: 10px;
 
 }
-.FVPlogoFooter{
-  width: 40%;
+#FVPlogoFooterimg{
+  width: 10%;
 }
 
 /*desktop*/

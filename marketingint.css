@@ -89,7 +89,7 @@ body{
     width: 100%;
 }
 .Header{
-    background-image: url(AcessForMarketing/Marketing\ header\ background.png);
+    background-image: url(AcessForMarketing/Marketingheaderbackground.png);
 
     background-repeat: no-repeat;
     background-size: cover;
@@ -144,11 +144,13 @@ font-weight: 600;
 font-style: normal;
 font-style: 15px;
 }
-.content1 {
+.content1 p {
   color: rgb(112, 111, 111);
 font-family: "Alegreya Sans SC", sans-serif;
 font-weight: 100;
 font-style: normal;
+font-size: 13px;
+padding-top: 1%;
 }
 
 .content2{
@@ -166,16 +168,27 @@ width: 50%;
 color:#AB8E5D;
 font-family: "Alegreya Sans SC", sans-serif;
 font-weight: 600;
- font-style: normal;
- font-style: 15px;
+font-style: normal;
+font-style: 15px;
 }
 .content2 p{
   color: rgb(112, 111, 111);
 font-family: "Alegreya Sans SC", sans-serif;
 font-weight: 100;
 font-style: normal;
+font-size: 13px;
+padding-top: 1%;
 }
-
+.Container3{
+  display: flex;
+  flex-direction: column;
+  /*background-image: url(AccessforBackgroundContenthub/background\ for\ content\ section.png);*/
+  width: 100%; 
+  background-repeat: no-repeat;
+  background-size: cover; 
+  text-align: center;
+  align-items: center;
+}
 .content3{
 width: 60%;
 box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
@@ -201,6 +214,8 @@ font-style: 15px;
 font-family: "Alegreya Sans SC", sans-serif;
 font-weight: 100;
 font-style: normal;
+font-size: 13px;
+padding-top: 1%;
 }
 .content4{
   width: 60%;
@@ -208,10 +223,10 @@ font-style: normal;
   background-color: white;
   border-radius: 10px;
   padding-bottom: 5%;
-  margin: 3%;
+  margin: 3%; 
 }
 #content4img{
-width: 50%;
+width: 45%;
 }
 .content4 h3{
 color:#AB8E5D;
@@ -225,231 +240,10 @@ font-style: 15px;
 font-family: "Alegreya Sans SC", sans-serif;
 font-weight: 100;
 font-style: normal;
-}
-.Container{
-  display: flex;
-  flex-direction: column;
-  text-align: center;
-  width: 100%;
-  text-align: center;
-  padding-top: 10%;
-}
-.ContactUsh1andp{
-  width: 100%;
-}
-.ContactUsh1andp h1{
-  font-family: "Alegreya Sans SC", sans-serif;
-  font-weight: 100;
-  font-style: normal;
-  color: #AB8E5D;
-  
-}
-.containerContact{
-  display: flex;
-  flex-direction: column;
-  text-align: center;
-  width: 100%;
-  text-align: center;
-  
-}
-input{
-  border-radius: 10px;
-  padding-top: 4%;
-  padding-bottom: 4%;
-  line-height: 10px;
-}
-textarea{
-  border-radius: 10px;
+font-size: 13px;
+padding-top: 1%;
 }
 
-#contact {
-  width: 100%;
-  height: 100%;
-}
-
-.section-header {
-  text-align: center;
-  font: 300 60px 'Oswald', sans-serif;
-  color: #fff;
-  text-transform: uppercase;
-  letter-spacing: 6px;
-}
-
-.contact-wrapper {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  margin: 0 auto;
-  padding: 20px;
-  position: relative;
- width: 100%;
-}
-.direct-contact-container {
-  display: flex;
-  flex-direction: column;
-  text-align: center;
-  width: 100%;
-  text-align: center;
-}  
-/* Left contact page */
-
-.form-control, 
-textarea {
-  width: 70%;
-  background-color: #ffffff;
-  color: #757474;
-  letter-spacing: 1px;
-  margin-top: 4%;
-  border: 1px solid transparent;
-}
-#name{
-  height: 4vh;
-  border: 1px solid transparent;
-  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.4), 0px 7px 13px -3px rgba(0, 0, 0, 0.3)
-}
-#email{
-  height: 4vh;
-  border: 1px solid transparent;
-  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.4), 0px 7px 13px -3px rgba(0, 0, 0, 0.3)
-}
-#message{
-  border: 1px solid transparent;
-  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.4), 0px 7px 13px -3px rgba(0, 0, 0, 0.3)
-}
-.send-button {
-  margin-top: 15px;
-  height: 8vh;
-  width: 70%;
-  overflow: hidden;
-  background-color: #e7cda0;
-  border: none;
-  border-radius: 10px;
-}
-.send-button:hover{
-  background-color: #f8f8f8;
-  border: 2px solid #e7cda0;
-}
-.send-text {
-  display: block;
-  margin-top: 10px;
-  font: 700 12px 'Lato', sans-serif;
-  letter-spacing: 2px;
-}
-
-/* Begin Right Contact Page */
-.direct-contact-container {
-  padding-top: 10%;
-  width: 100%;
-}
-/* Location, Phone, Email Section */
-.contact-list {
-  list-style-type: none;
-  padding-right: 20px;
-  font-size: 10px;
-}
-
-.list-item {
-  line-height: 4;
-  color: #000000;
-}
-
-.contact-text {
-  font: 300 13px 'Lato', sans-serif;
-  letter-spacing: 1.9px;
-  color: #000000;
-}
-
-.place {
-  margin-left: 62px;
-}
-.phone {
-  margin-left: 56px;
-}
-
-.gmail {
-  margin-left: 53px;
-}
-
-.contact-text a {
-  color: #000000;
-  text-decoration: none;
-  transition-duration: 0.2s;
-}
-
-.contact-text a:hover {
-  color: #fff;
-  text-decoration: none;
-}
-
-
-/* Social Media Icons */
-.social-media-list {
-  position: relative;
-  font-size: 15px;
-  text-align: center;
-  width: 100%;
-
-  padding: 0;
-}
-
-.social-media-list li a {
-  color: #fff;
-  
-}
-
-.social-media-list li {
-  position: relative; 
-  display: inline-block;
-  height: 60px;
-  width: 60px;
-  line-height: 60px;
-  margin: 17px 3px;
-  border-radius: 50%;
-  color: #fff;
-  background-color: rgb(27,27,27);
-  cursor: pointer; 
-  transition: all .2s ease-in-out;
-}
-
-.social-media-list li:after {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 60px;
-  height: 60px;
-  line-height: 60px;
-  border-radius: 50%;
-  opacity: 0;
-  box-shadow: 0 0 0 1px #fff;
-  transition: all .2s ease-in-out;
-}
-
-.social-media-list li:hover {
-  background-color: #fff; 
-}
-
-.social-media-list li:hover:after {
-  opacity: 1;  
-  transform: scale(1.12);
-  transition-timing-function: cubic-bezier(0.37,0.74,0.15,1.65);
-}
-
-.social-media-list li:hover a {
-  color: #000;
-}
-
-.copyright {
-  font: 200 14px 'Oswald', sans-serif;
-  color: #555;
-  letter-spacing: 1px;
-  text-align: center;
-  margin-top: 15%;
-}
-
-hr {
-  border-color: rgba(255,255,255,.6);
-}
 .ContainerFooter{
   display: flex;
   flex-direction:column;
@@ -461,11 +255,16 @@ hr {
 }
 .ContainerFooter p{
   color: #7a7878;
+  font-family: "Alegreya Sans SC", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+  font-size: 10px;
 
 }
-.FVPlogoFooter{
-  width: 40%;
+#FVPlogoFooterimg{
+  width: 10%;
 }
+
 @media screen and (min-width: 1024px){
   .navbar{
     width: 50%;
@@ -487,6 +286,9 @@ hr {
   }
   .Header p1{
      font-size: 15px;
+  }
+  .content4 h3{
+    text-wrap: nowrap;
   }
   .navPC{
     padding-top:4%;
@@ -527,13 +329,14 @@ hr {
     .Container2{
       flex-direction: row;
       display: flex;
+      justify-content:center;
   
    }
    .Container3{
      flex-direction: row;
      display: flex;
      justify-content:center;
-   
+     margin-top: -3%;
    }
   .containerContact{
   display: flex;

@@ -19,17 +19,17 @@ function openNav() {
 
   document.getElementById('mar')
               .addEventListener('click', function () {
-                window.location.href = 'file:///C:/Users/Sthe/Documents/websites/Flowing%20Visuals/Marketing%20intelligence.html';
+                window.location.href = './Marketing intelligence.html';
               });
   document.getElementById('exe')
               .addEventListener('click', function () {
-                window.location.href = 'file:///C:/Users/Sthe/Documents/websites/Flowing%20Visuals/Execution%20Intelligency.html';
+                window.location.href = './Execution Intelligency.html';
               });           
   document.getElementById('btn')
               .addEventListener('click', function () {
-                window.location.href = 'file:///C:/Users/Sthe/Documents/websites/Flowing%20Visuals/contactus.html';
+                window.location.href = './contactus.html';
               });           
   document.getElementById('FVPlogo')
               .addEventListener('click', function () {
-                window.location.href = 'file:///C:/Users/Sthe/Documents/websites/Flowing%20Visuals/index.html';
+                window.location.href = './index.html';
               });           
